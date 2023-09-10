@@ -8,5 +8,9 @@
 4. This will then allow you to run JavaScropt on VSCode.
 
 ## Hello World Program
+This is the code to run Hello World in JavaScript
+
     console.log('Hello World!')
-    #This will print Hello World!
+  This outputs into the terminal
+  
+    Hello World!
