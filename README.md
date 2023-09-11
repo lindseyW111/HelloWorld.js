@@ -14,3 +14,9 @@ This is the code to run Hello World in JavaScript
   This outputs into the terminal
   
     Hello World!
+## Sources
+https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
+
+https://launchschool.com/books/javascript/read/introduction
+
+https://www.programiz.com/java-programming/hello-world
