@@ -10,9 +10,16 @@
 ## Hello World Program
 This is the code to run Hello World in JavaScript
 
+Input:
+
     console.log('Hello World!')
-  This outputs into the terminal
-  
+   
+
+Output:
+
+     // Two forward slashes is how you comment
+    //  The code above outputs this into the terminal 
+   
     Hello World!
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
