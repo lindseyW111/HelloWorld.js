@@ -103,6 +103,82 @@ left shift | <<
 right shift | >>
 Unsigned right shift | >>>
 
+## Data Type Code
+
+### int and float
+
+Input:
+
+    const num1=3.7; 
+    const num2 = 2;
+    const sum = num1 + num2;
+    console.log(sum)
+    
+Output:
+
+      5.7
+
+### string
+
+Input:
+
+    const a =("Hello User");
+    console.log(a);
+
+Output:
+
+    Hello User
+
+
+### boolean
+
+Input:
+
+    console.log(5==6);
+
+Output:
+
+    false
+
+### array
+
+Input:
+
+    const catNames= ["Henry","Sam","Lucy"]
+    console.log(catNames);
+
+Output:
+
+    (3) ["Henry","Sam","Lucy"]
+
+
+### dictionary 
+
+Input:
+
+      var dict = [{
+    pet:"cat",
+    age : 2,
+    name:"Sam"
+    },
+    {
+    pet:"dog",
+    age : 1,
+    name:"Fred"
+
+    }
+    ];
+    console.log(dict[0]);
+
+Output:
+
+    {pet: 'cat', age: 2, name: 'Sam'}
+    
+
+
+
+  
+
 
  
 
