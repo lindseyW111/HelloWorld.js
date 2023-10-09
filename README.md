@@ -176,7 +176,10 @@ Output:
     
 ## Functions
 
+To make a function you use the function keyword followed by the function name and then parameters inside parenthesis. Functions can only run when they are in scope. Javascript does support recursive functions. Functions can accept multiple variables within parameters, in the parentheses separated by commas. They also can be different data types. You can also return multiple values in the return statement by separating them with commas.  Javascript functions are  passed by value ( functions know values, not the location of the value).  Javascript has global variables (declared outside the function) and local variables (declared inside the function). When Variables are declared their lifetime starts. When it is a global variable they only die when the web browser is closed. When it is a local variable they die when the function is completed. Local variables are also stored on the stack until the function has run. 
 
+
+#### Where are the arguments, parameters and local variables stored during execution?
 Stack | Heap
 ---|--- 
 number |function
@@ -186,9 +189,58 @@ null |
 undefined | 
 
   
+#### Function that takes in two numbers, multiplies them, and returns the output. Also saves the results of the function calls in variables. Also this shows a pass by value function.
 
 
- 
+Input:
+
+    function add(x,y){
+      a= x*y
+    return a
+    }
+
+    let result = add(2,5)
+    console.log(result)
+
+Output:
+
+    10
+
+
+#### Function that takes in a string (or your language's equivalent) and splits it into two strings, then returns both strings
+
+Input:
+
+    function func() {
+      let str = 'Hello world'
+      let array = str.split(" ");
+      console.log(array);
+    }
+    func();
+
+  Output:
+      
+      (2) ['Hello', 'world']
+####  Recursive function
+
+Input:
+
+    function countDown(x) {
+      console.log(x)
+  
+      let y = x - 1
+  
+      if (y > 0) {
+          countDown(y)
+      }
+    }
+    countDown(3)
+Output:
+
+    3
+    2
+    1
+
 
 
 ## Sources
@@ -197,3 +249,23 @@ https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%
 https://launchschool.com/books/javascript/read/introduction
 
 https://www.programiz.com/java-programming/hello-world
+
+
+
+
+
+
+https://www.programiz.com/javascript/recursion#:~:text=Recursion%20is%20a%20process%20of,function%20is%20a%20recursive%20function.
+
+https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/#:~:text=way%20is%20better%3F-,1.,that%20delimits%20the%20body%20code.&text=Open%20the%20demo.
+
+https://flexiple.com/javascript/javascript-pass-by-reference-or-value#:~:text=It%20is%20important%20to%20note,arguments%20inside%20of%20the%20function.
+
+https://fjolt.com/article/javascript-by-reference-by-value
+
+https://www.w3schools.com/js/js_scope.asp#:~:text=The%20Lifetime%20of%20JavaScript%20Variables,browser%20window%20(or%20tab).
+
+
+https://www.geeksforgeeks.org/javascript-string-split-method/
+https://www.javascripttutorial.net/javascript-recursive-function/\
+
