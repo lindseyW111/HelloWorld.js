@@ -174,8 +174,16 @@ Output:
 
     {pet: 'cat', age: 2, name: 'Sam'}
     
+## Functions
 
 
+Stack | Heap
+---|--- 
+number |function
+string | array
+boolean | 
+null | 
+undefined | 
 
   
 
