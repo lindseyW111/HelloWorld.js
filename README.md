@@ -289,6 +289,11 @@ Output:
 
     This number is greater than 10
 
+### Short-circuit evaluation 
+
+In javascript short-circuit evaluation happens in to instances with the or and and operations, javascript will read left to right.
+
+
     
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
