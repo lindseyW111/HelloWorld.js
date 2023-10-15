@@ -355,11 +355,6 @@ https://launchschool.com/books/javascript/read/introduction
 
 https://www.programiz.com/java-programming/hello-world
 
-
-
-
-
-
 https://www.programiz.com/javascript/recursion#:~:text=Recursion%20is%20a%20process%20of,function%20is%20a%20recursive%20function.
 
 https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/#:~:text=way%20is%20better%3F-,1.,that%20delimits%20the%20body%20code.&text=Open%20the%20demo.
@@ -370,7 +365,16 @@ https://fjolt.com/article/javascript-by-reference-by-value
 
 https://www.w3schools.com/js/js_scope.asp#:~:text=The%20Lifetime%20of%20JavaScript%20Variables,browser%20window%20(or%20tab).
 
-
 https://www.geeksforgeeks.org/javascript-string-split-method/
+
 https://www.javascripttutorial.net/javascript-recursive-function/\
+
+https://www.educative.io/answers/what-are-javascript-short-circuiting-operators#:~:text=In%20JavaScript%2C%20short%2Dcircuiting%20is,return%20that%20result%20(value).
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block#:~:text=The%20block%20is%20delimited%20by,or%20more%20statements%20and%20declarations.
+
+https://www.w3schools.com/js/js_switch.asp
+
+https://www.javatpoint.com/dangling-else-problem-in-java
+
 
