@@ -302,7 +302,15 @@ Input:
 Output:
 
       true
+### And operator will return false when it hits the first false value, or will return the last true value, if all values are true. 
 
+Input:
+
+    console.log(true && false)
+
+Output:
+
+      false
 
       
 ## Sources
