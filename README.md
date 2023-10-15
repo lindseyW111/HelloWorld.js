@@ -293,8 +293,18 @@ Output:
 
 In javascript short-circuit evaluation happens in to instances with the or and and operations, javascript will read left to right.
 
+### Or operator will return the first true value or the last false value. 
 
-    
+Input:
+
+    console.log(true || false)
+
+Output:
+
+      true
+
+
+      
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
 
