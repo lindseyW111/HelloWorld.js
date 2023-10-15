@@ -244,6 +244,52 @@ Output:
 
 
 
+## Conditional Statements
+
+if |
+---|
+if else |
+else |
+switch | 
+
+The delimit code blocks for condition in selection control statements are {“curly brackets”}.
+
+### One-condition if/else statement
+
+Input:
+
+    x=1;
+    if(x==0){
+      console.log("x is 0!")
+    }
+    else{
+      console.log("x is not 0!")
+    }
+
+  Output:
+
+    x is not 0!
+
+### Multi-condition if/else if/else statement
+
+Input:
+
+    x=11;
+    if(x>1 && x<10){
+      console.log("This number is between 1 and 10")
+    }
+    else if(x>10){
+      console.log("This number is greater than 10")
+    }
+    else{
+      console.log("This number is less than 0.")
+    }
+
+Output:
+
+    This number is greater than 10
+
+    
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
 
