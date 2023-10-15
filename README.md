@@ -312,7 +312,41 @@ Output:
 
       false
 
-      
+### Switch
+
+Input:
+
+      switch (6) {
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+         console.log("Monday");
+         break;
+    case 3:
+        console.log("Tuesday");
+        break;
+    case 4:
+        console.log("Wednesday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+    case 7:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Not a day");
+       break;}
+
+Output:
+
+    Friday
+
+
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
 
