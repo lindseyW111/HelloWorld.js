@@ -131,7 +131,7 @@ Output:
 
 
 ### boolean
-
+returns either true or false
 Input:
 
     console.log(5==6);
