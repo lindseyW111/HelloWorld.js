@@ -200,7 +200,7 @@ Input:
     return a
     }
 
-    let result = add(2,5)
+    let result = add(2,5)  //let assigns variable to a simple value
     console.log(result)
 
 Output:
@@ -346,8 +346,37 @@ Output:
 
     Friday
 
+
 ### Dangling else problem
   Dangling else problem usually happens in javascript when not using curly brackets. The simplest way to fix this problem is to use curly brackets.
+
+
+## Classes and Inhertance
+#### Objects are variables that can have many values 
+
+
+Input:
+
+    
+    const person ={name:"Jane", age:21, hairColor:"brown"} // creat person object
+    // code to print out 
+    document.getElementById("demo").innerHTML =
+    person.name + " is " + person.age + " years old.";
+
+Output:
+
+    Jane is 21 year old.
+
+this is a keyword used and for objects
+
+Code example:
+
+    function myFunction() {
+      return this;}
+
+
+
+      
 ## Sources
 https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,JavaScript%20for%20the%20Firefox%20browser
 
