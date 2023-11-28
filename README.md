@@ -373,6 +373,8 @@ Code example:
 
     function myFunction() {
       return this;}
+### Standard Methods
+Javascript has standard methods that are built in for Java scrpit [Click here for list]([https://code.visualstudio.com/download](https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll)).
 
 
 
