@@ -222,7 +222,7 @@ Input:
   Output:
       
       (2) ['Hello', 'world']
-####  Recursive function
+###  Recursive function
 
 Input:
 
@@ -293,7 +293,8 @@ Output:
 
 In javascript short-circuit evaluation happens in to instances with the or and and operations, javascript will read left to right.
 
-### Or operator will return the first true value or the last false value. 
+### Or operator 
+#### Will return the first true value or the last false value. 
 
 Input:
 
@@ -302,7 +303,8 @@ Input:
 Output:
 
       true
-### And operator will return false when it hits the first false value, or will return the last true value, if all values are true. 
+### And operator 
+#### Will return false when it hits the first false value, or will return the last true value, if all values are true. 
 
 Input:
 
