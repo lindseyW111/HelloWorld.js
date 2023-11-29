@@ -34,7 +34,7 @@ There are only two mutable variables in JavaScript Arrays and Objects.
 3. Lack of reading and writing capabilities on the client side.
 4. Limitations of networking.
 
-## Keywords
+### Keywords
 There are 63 keywords in JavaScript.
 
 abstract	| arguments |	boolean |	break |	byte |	case |	catch | char |	const
