@@ -351,7 +351,6 @@ Output:
 
 ### Dangling else problem
   Dangling else problem usually happens in javascript when not using curly brackets. The simplest way to fix this problem is to use curly brackets.
-## Loops
 
 ### While loops
 
