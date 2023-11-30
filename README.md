@@ -451,7 +451,7 @@ Output:
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
 
-
+### Creating an Object
 Input:
 
     
@@ -470,6 +470,39 @@ Output:
 
     Jane is 21 year old.
     here full name is Jane Doe
+
+
+
+### Class inheritance
+
+Input:
+
+     class FirstName {
+        constructor(first) {
+          this.firstN = first;
+        }
+        present() {
+          return  this.firstN;
+        }
+      }
+    
+    class FullName extends FirstName {
+      constructor(first, last) {
+        super(first);
+        this.lastN = last;
+      }
+      show() {
+        return this.present() + ' ' + this.lastN;
+      }
+    }
+    
+    let myName = new FullName("Jane", "Doe");
+  
+    console.log(myName.show());
+
+Outpt:
+
+    Jane Doe
 
     
 #### this
