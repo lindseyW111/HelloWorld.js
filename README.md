@@ -455,14 +455,23 @@ Output:
 Input:
 
     
-    const person ={name:"Jane", age:21, hairColor:"brown"} // creat person object
+    // creat person object
+    const person ={firstName:"Jane", 
+    lastName:"Doe",
+     age:21, 
+     hairColor:"brown",
+     fullName : function() { // Create function for person
+        return this.firstName + " " + this.lastName;}} 
     // code to print out 
-    document.getElementById("demo").innerHTML =
-    person.name + " is " + person.age + " years old.";
+    console.log(person.firstName + " is " + person.age + " years old.");
+    console.log("There full name is " +person.fullName());
 
 Output:
 
     Jane is 21 year old.
+    here full name is Jane Doe
+
+    
 #### this
 this is a keyword used to refrence objects
 
