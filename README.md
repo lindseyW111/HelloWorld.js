@@ -554,4 +554,9 @@ https://www.w3schools.com/js/js_loop_forin.asp
 
 https://www.w3schools.com/js/js_loop_forof.asp
 
+https://www.w3schools.com/js/js_objects.asp
+
+https://www.w3schools.com/js/js_class_inheritance.asp
+
+
 
