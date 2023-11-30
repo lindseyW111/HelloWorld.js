@@ -353,10 +353,17 @@ Output:
   Dangling else problem usually happens in javascript when not using curly brackets. The simplest way to fix this problem is to use curly brackets.
 
 ### While loops
+The loop will execute through the block of code as long as the while condition is true
 
 ### Do while loops
+The Do while loop will execute the code at least once even if it is false because it runs before the condition
+### For loops
 
 ### For loops
+
+### For In loops
+
+### For of loops
 
 
 ## Classes and Inhertance
