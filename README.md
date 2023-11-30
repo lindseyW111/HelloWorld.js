@@ -433,6 +433,20 @@ Output:
 ### For of loops
 Loops through values in an iterable object
 
+Input:
+
+ 
+    const word = "Hi";
+ 
+    for (let i of word) {
+      console.log( i);
+    }
+
+Output:
+
+    H
+    i
+
 
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
