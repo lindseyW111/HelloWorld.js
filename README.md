@@ -413,6 +413,23 @@ Output:
 ### For In loops
 Loops through properties within an object
 
+Input: 
+
+    const numbers = [0,1,2,3,4];
+ 
+    for (let i in numbers) {
+      console.log("The number is " + i);
+    }
+
+
+Output:
+
+    The number is 0
+    The number is 1
+    The number is 2
+    The number is 3
+    The number is 4
+
 ### For of loops
 Loops through values in an iterable object
 
