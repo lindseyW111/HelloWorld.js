@@ -393,12 +393,28 @@ Output:
     The number is 4
     
 ### For loops
+Loops through code a specific amount of times
 
-### For loops
+Input:
+
+    for (let i = 0; i < 5; i++) {
+      console.log("The number is " + i);
+    }
+
+Output:
+
+    The number is 0
+    The number is 1
+    The number is 2
+    The number is 3
+    The number is 4
+  
 
 ### For In loops
+Loops through properties within an object
 
 ### For of loops
+Loops through values in an iterable object
 
 
 ## Classes and Inhertance
