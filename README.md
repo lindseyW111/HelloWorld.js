@@ -355,6 +355,23 @@ Output:
 ### While loops
 The loop will execute through the block of code as long as the while condition is true
 
+Input:
+
+    i=0;
+    while (i < 5) {
+      console.log("The number is " + i);
+      i++;
+    }
+
+Output:
+
+    The number is 0
+    The number is 1
+    The number is 2
+    The number is 3
+    The number is 4
+    
+  
 ### Do while loops
 The Do while loop will execute the code at least once even if it is false because it runs before the condition
 ### For loops
