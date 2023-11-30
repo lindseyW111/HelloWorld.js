@@ -506,3 +506,10 @@ https://www.javatpoint.com/dangling-else-problem-in-java
 
 https://www.w3schools.com/js/js_loop_while.asp
 
+https://www.w3schools.com/js/js_loop_for.asp
+
+https://www.w3schools.com/js/js_loop_forin.asp
+
+https://www.w3schools.com/js/js_loop_forof.asp
+
+
