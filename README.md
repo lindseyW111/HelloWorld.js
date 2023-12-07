@@ -490,7 +490,7 @@ Output:
 ### `extends` method
 Use `extends` to create a class inheritance ( that will inherit methods from said class).
 
-### `super()`
+### `super()` function
 Use `super()` to refer to the parent class
 Input:
 ```javascript
