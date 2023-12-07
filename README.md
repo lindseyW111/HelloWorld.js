@@ -7,7 +7,7 @@
 3. Next you have to download [Node.js](https://nodejs.org/en) for Mac.
 4. This will then allow you to run JavaScropt on VSCode.
 
-## `Hello World Program`
+## Hello World Program
 This is the code to run Hello World in JavaScript
 
 Input:
@@ -110,7 +110,7 @@ Unsigned right shift | >>>
 
 ## Data Type Code
 
-### int and float
+### 'int' and 'float'
 
 Input:
 ```javascript
@@ -125,7 +125,7 @@ Output:
       5.7
 ```
 
-### string
+### 'string'
 
 Input:
 ```javascript
@@ -137,7 +137,7 @@ Output:
     Hello User
 ```
 
-### boolean
+### 'boolean'
 returns either true or false
 
 Input:
@@ -148,7 +148,7 @@ Output:
 ```javascript
     false
 ```
-### array
+### 'array'
 
 Input:
 ```javascript
@@ -160,7 +160,7 @@ Output:
     (3) ["Henry","Sam","Lucy"]
 ```
 
-### dictionary 
+### 'dictionary' 
 
 Input:
 ```javascript
@@ -263,7 +263,7 @@ switch |
 
 The delimit code blocks for condition in selection control statements are {“curly brackets”}.
 
-### One-condition if/else statement
+### One-condition 'if/else' statement
 
 Input:
 ```javascript
@@ -279,7 +279,7 @@ Input:
 ```javascript
     x is not 0!
 ```
-### Multi-condition if/else if/else statement
+### Multi-condition 'if/else if/else' statement
 
 Input:
 ```javascript
@@ -302,7 +302,7 @@ Output:
 
 In javascript short-circuit evaluation happens in to instances with the or and and operations, javascript will read left to right.
 
-### Or operator 
+### 'Or' operator 
 #### Will return the first true value or the last false value. 
 
 Input:
@@ -313,7 +313,7 @@ Output:
 ```javascript
       true
 ```
-### And operator 
+### 'And' operator 
 #### Will return false when it hits the first false value, or will return the last true value, if all values are true. 
 
 Input:
@@ -324,7 +324,7 @@ Output:
 ```javascript
       false
 ```
-### Switch
+### 'Switch'
 
 Input:
 ```javascript
@@ -362,7 +362,7 @@ Output:
 ### Dangling else problem
   Dangling else problem usually happens in javascript when not using curly brackets. The simplest way to fix this problem is to use curly brackets.
 
-### While loops
+### 'While' loops
 The loop will execute through the block of code as long as the while condition is true
 
 Input:
@@ -382,7 +382,7 @@ Output:
     The number is 4
     
  ``` 
-### Do while loops
+### 'Do while' loops
 The do while loop will execute the code at least once even if it is false because it runs before the condition
 
 Input:
@@ -402,7 +402,7 @@ Output:
     The number is 3
     The number is 4
  ```   
-### For loops
+### 'For'  loops
 Loops through code a specific amount of times
 
 Input:
@@ -420,7 +420,7 @@ Output:
     The number is 4
   ```
 
-### For In loops
+### 'For In' loops
 Loops through properties within an object
 
 Input: 
@@ -440,7 +440,7 @@ Output:
     The number is 3
     The number is 4
 ```
-### For of loops
+### 'For of' loops
 Loops through values in an iterable object
 
 Input:
@@ -515,7 +515,7 @@ Outpt:
     Jane Doe
 ```
     
-#### this
+#### 'this'
 this is a keyword used to refrence objects
 
 Code example:
