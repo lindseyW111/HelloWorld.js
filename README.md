@@ -7,20 +7,25 @@
 3. Next you have to download [Node.js](https://nodejs.org/en) for Mac.
 4. This will then allow you to run JavaScropt on VSCode.
 
-## Hello World Program
+## `Hello World Program`
 This is the code to run Hello World in JavaScript
 
 Input:
 
+   ```javascript
     console.log('Hello World!')
+   ```
+
    
 
 Output:
 
-     // Two forward slashes is how you comment
+  ```javascript
+    // Two forward slashes is how you comment
     //  The code above outputs this into the terminal 
    
     Hello World!
+```       
 
 ## Naming
 
@@ -108,55 +113,57 @@ Unsigned right shift | >>>
 ### int and float
 
 Input:
-
+```javascript
     const num1=3.7; 
     const num2 = 2;
     const sum = num1 + num2;
     console.log(sum)
+```
     
 Output:
-
+```javascript
       5.7
+```
 
 ### string
 
 Input:
-
+```javascript
     const a =("Hello User");
     console.log(a);
-
+```
 Output:
-
+```javascript
     Hello User
-
+```
 
 ### boolean
 returns either true or false
 
 Input:
-
+```javascript
     console.log(5==6);
-
+```
 Output:
-
+```javascript
     false
-
+```
 ### array
 
 Input:
-
+```javascript
     const catNames= ["Henry","Sam","Lucy"]
     console.log(catNames);
-
+```
 Output:
-
+```javascript
     (3) ["Henry","Sam","Lucy"]
-
+```
 
 ### dictionary 
 
 Input:
-
+```javascript
       var dict = [{
     pet:"cat",
     age : 2,
@@ -170,11 +177,11 @@ Input:
     }
     ];
     console.log(dict[0]);
-
+```
 Output:
-
+```javascript
     {pet: 'cat', age: 2, name: 'Sam'}
-    
+```  
 ## Functions
 
 To make a function you use the function keyword followed by the function name and then parameters inside parenthesis. Functions can only run when they are in scope. Javascript does support recursive functions. Functions can accept multiple variables within parameters, in the parentheses separated by commas. They also can be different data types. You can also return multiple values in the return statement by separating them with commas.  Javascript functions are  passed by value ( functions know values, not the location of the value).  Javascript has global variables (declared outside the function) and local variables (declared inside the function). When Variables are declared their lifetime starts. When it is a global variable they only die when the web browser is closed. When it is a local variable they die when the function is completed. Local variables are also stored on the stack until the function has run. 
@@ -194,7 +201,7 @@ undefined |
 
 
 Input:
-
+```javascript
     function add(x,y){
       a= x*y
     return a
@@ -202,30 +209,31 @@ Input:
 
     let result = add(2,5)  //let assigns variable to a simple value
     console.log(result)
-
+```
 Output:
-
+```javascript
     10
-
+```
 
 #### Function that takes in a string (or your language's equivalent) and splits it into two strings, then returns both strings
 
 Input:
-
+```javascript
     function func() {
       let str = 'Hello world'
       let array = str.split(" ");
       console.log(array);
     }
     func();
-
+```
   Output:
-      
+  ```javascript    
       (2) ['Hello', 'world']
+  ```
 ###  Recursive function
 
 Input:
-
+```javascript
     function countDown(x) {
       console.log(x)
   
@@ -236,13 +244,14 @@ Input:
       }
     }
     countDown(3)
+```
 Output:
-
+```javascript
     3
     2
     1
 
-
+```
 
 ## Conditional Statements
 
@@ -257,7 +266,7 @@ The delimit code blocks for condition in selection control statements are {“cu
 ### One-condition if/else statement
 
 Input:
-
+```javascript
     x=1;
     if(x==0){
       console.log("x is 0!")
@@ -265,15 +274,15 @@ Input:
     else{
       console.log("x is not 0!")
     }
-
+```
   Output:
-
+```javascript
     x is not 0!
-
+```
 ### Multi-condition if/else if/else statement
 
 Input:
-
+```javascript
     x=11;
     if(x>1 && x<10){
       console.log("This number is between 1 and 10")
@@ -284,11 +293,11 @@ Input:
     else{
       console.log("This number is less than 0.")
     }
-
+```
 Output:
-
+```javascript
     This number is greater than 10
-
+```
 ### Short-circuit evaluation 
 
 In javascript short-circuit evaluation happens in to instances with the or and and operations, javascript will read left to right.
@@ -297,27 +306,28 @@ In javascript short-circuit evaluation happens in to instances with the or and a
 #### Will return the first true value or the last false value. 
 
 Input:
-
+```javascript
     console.log(true || false)
-
+```
 Output:
-
+```javascript
       true
+```
 ### And operator 
 #### Will return false when it hits the first false value, or will return the last true value, if all values are true. 
 
 Input:
-
+```javascript
     console.log(true && false)
-
+```
 Output:
-
+```javascript
       false
-
+```
 ### Switch
 
 Input:
-
+```javascript
       switch (6) {
     case 1:
         console.log("Sunday");
@@ -343,11 +353,11 @@ Input:
     default:
         console.log("Not a day");
        break;}
-
+```
 Output:
-
+```javascript
     Friday
-
+```
 
 ### Dangling else problem
   Dangling else problem usually happens in javascript when not using curly brackets. The simplest way to fix this problem is to use curly brackets.
@@ -356,97 +366,97 @@ Output:
 The loop will execute through the block of code as long as the while condition is true
 
 Input:
-
+```javascript
     i=0;
     while (i < 5) {
       console.log("The number is " + i);
       i++;
     }
-
+```
 Output:
-
+```javascript
     The number is 0
     The number is 1
     The number is 2
     The number is 3
     The number is 4
     
-  
+ ``` 
 ### Do while loops
 The do while loop will execute the code at least once even if it is false because it runs before the condition
 
 Input:
-
+```javascript
     i=0;
     do {
       console.log("The number is " + i);
       i++;
     }
     while (i < 5);
-
+```
 Output:
-
+```javascript
     The number is 0
     The number is 1
     The number is 2
     The number is 3
     The number is 4
-    
+ ```   
 ### For loops
 Loops through code a specific amount of times
 
 Input:
-
+```javascript
     for (let i = 0; i < 5; i++) {
       console.log("The number is " + i);
     }
-
+```
 Output:
-
+```javascript
     The number is 0
     The number is 1
     The number is 2
     The number is 3
     The number is 4
-  
+  ```
 
 ### For In loops
 Loops through properties within an object
 
 Input: 
-
+```javascript
     const numbers = [0,1,2,3,4];
  
     for (let i in numbers) {
       console.log("The number is " + i);
     }
-
+```
 
 Output:
-
+```javascript
     The number is 0
     The number is 1
     The number is 2
     The number is 3
     The number is 4
-
+```
 ### For of loops
 Loops through values in an iterable object
 
 Input:
 
- 
+ ```javascript
     const word = "Hi";
  
     for (let i of word) {
       console.log( i);
     }
-
+```
 Output:
-
+```javascript
     H
     i
-
+```
 
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
@@ -454,7 +464,7 @@ Output:
 ### Creating an Object
 Input:
 
-    
+  ```javascript  
     // creat person object
     const person ={firstName:"Jane", 
     lastName:"Doe",
@@ -465,18 +475,18 @@ Input:
     // code to print out 
     console.log(person.firstName + " is " + person.age + " years old.");
     console.log("There full name is " +person.fullName());
-
+```
 Output:
-
+```javascript
     Jane is 21 year old.
     here full name is Jane Doe
 
-
+```
 
 ### Class inheritance
 
 Input:
-
+```javascript
      class FirstName {
         constructor(first) {
           this.firstN = first;
@@ -499,19 +509,20 @@ Input:
     let myName = new FullName("Jane", "Doe");
   
     console.log(myName.show());
-
+```
 Outpt:
-
+```javascript
     Jane Doe
-
+```
     
 #### this
 this is a keyword used to refrence objects
 
 Code example:
-
+```javascript
     function myFunction() {
       return this;}
+```
 ### Standard Methods
 Javascript has standard methods that are built in for Java scrpit [Click here for list](https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll).
 
