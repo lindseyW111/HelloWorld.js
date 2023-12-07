@@ -461,7 +461,7 @@ Output:
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
 
-### Creating an Object
+### Creating an Object with class atributes and functions
 Input:
 
   ```javascript  
