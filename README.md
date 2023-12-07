@@ -460,8 +460,9 @@ Output:
 
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
-### 'Constructor' method
-To create and initiate objects in javascript use the 'constructor' method
+### `Constructor` method
+To create and initiate objects in javascript use the `constructor` method
+
 ### Creating an Object with class atributes and functions
 Input:
 
