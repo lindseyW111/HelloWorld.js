@@ -460,7 +460,7 @@ Output:
 
 ## Classes and Inhertance
 #### Objects are variables that can have many values 
-## `Constructor` method
+#### `Constructor` method
 To create and initiate objects in javascript use the `constructor` method
 
 ### Creating an Object with class atributes and functions
@@ -487,10 +487,10 @@ Output:
 
 ### Class inheritance
 
-## `extends` method
+#### `extends` method
 Use `extends` to create a class inheritance ( that will inherit methods from said class).
 
-## `super()` function
+#### `super()` function
 Use `super()` to refer to the parent class
 Input:
 ```javascript
