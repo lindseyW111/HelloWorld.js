@@ -492,6 +492,10 @@ Use `extends` to create a class inheritance ( that will inherit methods from sai
 
 #### `super()` function
 Use `super()` to refer to the parent class
+
+#### `this` method
+this is a keyword used to refrence objects
+
 Input:
 ```javascript
      class FirstName {
@@ -521,15 +525,7 @@ Outpt:
 ```javascript
     Jane Doe
 ```
-    
-#### `this`
-this is a keyword used to refrence objects
 
-Code example:
-```javascript
-    function myFunction() {
-      return this;}
-```
 ### Standard Methods
 Javascript has standard methods that are built in for Java scrpit [Click here for list](https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll).
 
