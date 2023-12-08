@@ -494,7 +494,7 @@ Use `extends` to create a class inheritance ( that will inherit methods from sai
 Use `super()` to refer to the parent class
 
 #### `this` method
-this is a keyword used to refrence objects
+`this` is a keyword used to refrence objects
 
 Input:
 ```javascript
