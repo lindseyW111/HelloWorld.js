@@ -556,6 +556,8 @@ https://www.educative.io/answers/what-are-javascript-short-circuiting-operators#
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block#:~:text=The%20block%20is%20delimited%20by,or%20more%20statements%20and%20declarations.
 
+https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll
+
 https://www.w3schools.com/js/js_switch.asp
 
 https://www.javatpoint.com/dangling-else-problem-in-java
