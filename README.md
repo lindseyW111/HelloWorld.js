@@ -576,5 +576,7 @@ https://www.w3schools.com/js/js_class_inheritance.asp
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
 
-
+https://iq.js.org/questions/javascript/javascript-programming-paradigms#:~:text=JavaScript%20is%20a%20multi%2Dparadigm,supports%20OOP%20with%20prototypal%20inheritance.
+https://reintech.io/blog/what-is-the-purpose-of-javascript#:~:text=The%20primary%20purpose%20of%20JavaScript,engaging%2C%20dynamic%2C%20and%20interactive.
+https://radixweb.com/blog/top-javascript-usage-statistics#:~:text=JavaScript%20Market%20Share-,JavaScript%3A%20The%20Most%20Popular%20Programming%20Language%20among%20Developers%20in%202024,%25)%20and%20Python%20(49.28%25).
 
